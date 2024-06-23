@@ -1,0 +1,35 @@
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.chat-container, .react-executor {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.chat-container {
+  background-color: #f0f2f5;
+}
+
+.react-executor {
+  background-color: #282c34;
+  color: #abb2bf;
+}
+
+/* 他のスタイルは前回と同じ */
+
+textarea {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.output {
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
